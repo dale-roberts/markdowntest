@@ -17,7 +17,7 @@ rodents***](https://www.nature.com/articles/s41598-024-80344-y) , Hughes,
 Roberts, Tarchini, Cullen, Scientific Reports (Nature open-access) **14**, 29270
 (2024). DOI: https://doi.org/10.1038/s41598-024-80344-y.
 
-The approach uses an Inertial Measurement Unit (IMU) sensor chip to collect linear acceleration and angular velocity data from the chip's 3-axis accelerometer and 3-axis gyroscope sensors during swim test trials, and processes the data using a "sensor fusion" algorightm to track the subject's orientation in space with the aim of distinguishing subjects having vestibular deficits.
+The approach uses an <span style="color:red">successfully</span>Inertial Measurement Unit (IMU)</span> sensor chip to collect linear acceleration and angular velocity data from the chip's 3-axis accelerometer and 3-axis gyroscope sensors during swim test trials, and processes the data using a "sensor fusion" algorightm to track the subject's orientation in space with the aim of distinguishing subjects having vestibular deficits.
 
 The repository contains Matlab ".mat" binary files of the experimental data used for the paper. The data are in two subdirectories, one for Heterozygous (unaffected) and one for Homozygous (affected) subjects. Scripts are provided which reproduce several plots used for figures in the paper.
 
