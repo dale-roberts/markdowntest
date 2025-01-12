@@ -1,13 +1,3 @@
-<!-- Define some style "shortcuts" we can use in the text -->
-
-<style>
-red { color: red }
-yellow { color: yellow }
-orange { color: orange }
-blue { color: #00ddff }
-</style>
-
-
 # SWIMU Swim Test
 
 ## About
@@ -17,7 +7,7 @@ rodents***](https://www.nature.com/articles/s41598-024-80344-y) , Hughes,
 Roberts, Tarchini, Cullen, Scientific Reports (Nature open-access) **14**, 29270
 (2024). DOI: https://doi.org/10.1038/s41598-024-80344-y.
 
-The approach uses an <span style="color:red">successfully</span>Inertial Measurement Unit (IMU)</span> sensor chip to collect linear acceleration and angular velocity data from the chip's 3-axis accelerometer and 3-axis gyroscope sensors during swim test trials, and processes the data using a "sensor fusion" algorightm to track the subject's orientation in space with the aim of distinguishing subjects having vestibular deficits.
+The approach uses an Inertial Measurement Unit (IMU) sensor chip to collect linear acceleration and angular velocity data from the chip's 3-axis accelerometer and 3-axis gyroscope sensors during swim test trials, and processes the data using a "sensor fusion" algorightm to track the subject's orientation in space with the aim of distinguishing subjects having vestibular deficits.
 
 The repository contains Matlab ".mat" binary files of the experimental data used for the paper. The data are in two subdirectories, one for Heterozygous (unaffected) and one for Homozygous (affected) subjects. Scripts are provided which reproduce several plots used for figures in the paper.
 
@@ -47,7 +37,7 @@ Run the scripts by typing their names at the Matlab command line.
   ```
 
 
-  * Shown here is the Probability Density plot, with the **Weighted Averages**, which successfully distinguish <blue>unaffected</blue> (<blue>**BLUE**</blue>) vs <red>affected</red> (<red>**RED**</red>) subjects. Each "dot" in the Weighted Average box represents the average Distance from Upright for single trace (a single swim trial), weighted by the probability of the distance.
+  * Shown here is the Probability Density plot, with the **Weighted Averages**, which successfully distinguish unaffected (**BLUE**) vs affected (**RED**) subjects. Each "dot" in the Weighted Average box represents the average Distance from Upright for single trace (a single swim trial), weighted by the probability of the distance.
 
     <img src="ProbabilityFig.png" alt="drawing" width="80%"/>
 
@@ -59,7 +49,7 @@ Run the scripts by typing their names at the Matlab command line.
 
   * Note that the plots of the unaffected mice generally show the blue dots clustered near the upright "North Pole" of the sphere.
 
-  * By contrast, plots of the affected mice show data points scattered farther from upright, with <orange>**Orange**</orange> indicating data points with Z values between 0.4 down to 0.0, and <red>**Red**</red> indicating data points with Z values below 0.0 (forhead effectively "under water").
+  * By contrast, plots of the affected mice show data points scattered farther from upright, with **Orange** indicating data points with Z values between 0.4 down to 0.0, and **Red** indicating data points with Z values below 0.0 (forhead effectively "under water").
 
   * You may use the mouse wheel to quickly flip between figure tabs, or simply click on each tab, or the tab navigation arrow icons above the figure title.
 
