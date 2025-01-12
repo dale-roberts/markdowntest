@@ -62,7 +62,7 @@ Run the scripts by typing their names at the Matlab command line.
 
 ## Sensor Fusion with Matlab's imufilter()
 
-The data files provided in this repository already have the output of Matlab's imufilter() "sensor fusion" algorightm, so the provided scripts do not implement that step. Here we describe the basic steps to convert calibrated IMU acceleration and gyroscope data into the "heading/orientation" rotation matrices used for the above analyses. This should enable others to convert IMU data from their own sensor systems so that the above analyses can be run.
+The data files provided in this repository already have the output of Matlab's imufilter() "sensor fusion" algorithm, so the provided scripts do not implement that step. Here we describe the basic steps to convert calibrated IMU acceleration and gyroscope data into the "heading/orientation" rotation matrices used for the above analyses. This should enable others to convert IMU data from their own sensor systems so that the above analyses can be run.
 
 * It is important that the Accelerometer and Gyroscope data are already correctly calibrated, and any sensor "offset" artifacts are already removed, otherwise the imufilter() process will not correctly track the subject orientation.
   * Gyroscope data should have all offsets removed, so that when the sensor is not moving, all 3 gyroscope signals have a mean of zero.
