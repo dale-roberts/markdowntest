@@ -110,4 +110,4 @@ R = rotmat(q, 'point');
 
 ```
 
-After obtaining the 'R' Rotation Matrix output, you could, for instance, plot endpoint of the Z vector on a sphere using `Plot3D(R)`. If an opaque sphere is preferred, pass "false" as the second parameter: `Plot3D(R, false)`.
+After obtaining the 'R' Rotation Matrix output, you could, for instance, plot endpoints of the Z vector on a sphere using `Plot3D(R)`, to produce a Sphere Plot as shown above. If an opaque sphere is preferred, pass "false" as the second parameter to turn off transparancy: `Plot3D(R, false)`.
