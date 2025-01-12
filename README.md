@@ -43,7 +43,7 @@ Run the scripts by typing their names at the Matlab command line.
 
 
 
-* Next run `Plot3DAll`, which will produce two figure widows containing tabbed layouts of Sphere Plots. The figure windows are labeled in the window title bar for Heterozygous (unaffected) and Homozygous (affected), and each figure tab contains the name of the respective data file.
+* Next run `Plot3DAll`, which will produce two figure windows containing tabbed layouts of Sphere Plots. The figure windows are labeled in the window title bar for Heterozygous (unaffected) and Homozygous (affected), and each figure tab contains the name of the respective data file.
 
   * These plots show the endpoint of the "Forehead" vector (as described in the paper), which effectively shows how well the subject keeps its forehead pointed upward during swimming.
 
